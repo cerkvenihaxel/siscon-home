@@ -9,7 +9,13 @@ import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
 export default function Home() {
   return (
+  
     <div >
+        <Head>
+      <title>SISCON</title>
+      <meta name="description" content="Sistema de gestión y control" />
+      <link rel="icon" href="/sisconlogo.png" />
+    </Head>
       <Hero />
       <Layout >
         <div className='bg-whiteflex flex-col justify-center items-center' >
